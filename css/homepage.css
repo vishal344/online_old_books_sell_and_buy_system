@@ -1,0 +1,175 @@
+/*-------- nav bar start here -------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar-form .input{
+    width: 43vw;
+    height: 2rem;
+    padding: 1.7rem 0.5rem;
+    font-size: 1.2rem;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: grey;
+    border : none;
+    border: 1px solid #12f8ad;
+}
+
+#navbar-form .fa-search, .fas{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+#navbar-form .search_btn{
+    font-size: 80%;
+    background-color: black;
+    color: white;
+    padding: 0.7% 1.3vw;
+    /* padding: 0.9rem 1.8rem; */
+    border: none;
+    transition: all 200ms linear;
+    text-align: center;
+
+}
+
+#navbar-form .search_btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+#navbar-ul .signup_btn, #navbar-ul .login_btn, #navbar-ul .cart_btn{  
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 200ms linear;
+    padding: 1rem 0.9vw;
+    /* padding: 1rem 1rem; */
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    border: none;
+    background-color: #12f8ad;
+    color: black;
+    box-shadow: 0 8px 24px 0 rgba(18, 248, 173,.2);
+}
+
+#navbar-ul .signup_btn:active, #navbar-ul .login_btn:active, #navbar-ul .cart_btn:active,
+#navbar-ul .signup_btn:focus, #navbar-ul .login_btn:focus, #navbar-ul .cart_btn:focus{  
+  background-color: #fff;
+  color: #12f8ad;
+  box-shadow: 0 8px 24px 0 rgba(255,255,255,.2);
+}
+
+#navbar-ul .signup_btn:hover, #navbar-ul .login_btn:hover, #navbar-ul .cart_btn:hover{  
+  background-color: #fff;
+  color: #12f8ad;
+  box-shadow: 0 8px 24px 0 rgba(255,255,255,.2);
+}
+
+#horizontal_line{
+    width: 100vw;
+    height: 1vh;
+    background-color: #12f8ad;
+}
+
+#navbar-ul a{
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    #navbar-ul .signup_btn, .login_btn, .cart_btn{
+        margin: 1% !important;
+        padding: 1.2rem;
+    }
+    #navbar-ul  .signup_btn, .login_btn, .cart_btn{
+        width: 50%;
+    }
+    #navbar-form{
+        margin: 2%;
+        
+    }
+    #navbar-form .input{
+        width: 60vw;
+        
+    }
+    #navbar-form .search_btn{
+        padding: 1rem;
+        margin-left: 10px !important;
+    }
+}
+
+/*------------------------------------------ nav bar ends here----------------------------------------*/
+/*--------------------------------------------- second section start here ----------------------------*/
+
+
+#second-section{
+    
+    background: linear-gradient(to right, #00ffff 0%, #12f8ad 100%);
+
+    
+}
+
+#second-section #heading{
+    color : white;
+}
+
+#second-section h1{
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900px;
+    font-size: 3.7rem;
+}
+
+#second-section .btn {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 14px 30px 14px 30px;
+    text-decoration: none;
+  }
+  
+#second-section .btn:hover {
+    background: #151617;
+    text-decoration: none;
+  }
+
+
+
+  @media (max-width: 576px) {
+      #second-section .box1{
+          order: 2;
+      }
+
+      #second-section .box2{
+        order: 1;
+    }
+
+    #heading{
+        font-size: 4rem;
+    }
+
+    #second-section h1{
+        font-size: 4rem;
+    }
+  }
+
+
+
+
+/*--------------------------------------------- second section ends here ----------------------------*/

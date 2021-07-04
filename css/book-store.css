@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+
+#book-store {
+             min-height: 100vh;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             background: linear-gradient(to right,#00ffff 0%,#12f8ad 100%);
+             background-repeat: no-repeat;
+             background-size: cover;
+             font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#book-store section {
+              width: 100vw;
+              min-height: 100vh;
+              display:flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+}
+
+
+       /* Cards */
+
+#book-store .card {
+
+
+                overflow: hidden;
+                width: 15rem;
+                background-color:#fff;
+                border-radius: 10px;
+                align-items: center;
+                padding-top: 1rem;
+}
+#book-store .card:hover{
+
+	       transform-style: preserve-3d;
+	       transform: scale(1.02);
+	       transition: all ease 0.3s;
+}
+
+#book-store .card  .card-img-top
+                    {
+                 padding: 10px;
+                 display: flex;
+                 height: 60%;
+                 width: 60%;
+
+}
+      /* Cards text */
+
+#book-store .card-title{
+                text-align:center;
+}
+
+#book-store .card-sub-title{
+                font-size: 20px;
+                font-weight: 600;
+                color: #e74c3c;
+                line-height: 20px;
+                text-align:center;
+}
+#book-store .card-text{
+              text-align:center;
+              color:black;
+              font-family:ariel;
+}
+
+
+/* Button */
+
+#book-store .btn{
+              display: block;
+              text-align: center;
+              margin: 10px 0;
+              text-transform: uppercase;
+
+
+}
+#book-store .btn button{
+             background: #12f8ad;
+             color: black;
+             border: none;
+             outline: none;
+             font-size: 17px;
+             padding: 0.6rem 1.2rem;
+             border-radius: 5px;
+             cursor: pointer;
+             transition: 0.2s;
+             text-transform: uppercase;
+
+
+
+}
+ #book-store .btn button:hover{
+             transform: scale(0.9);
+             background: #12f8ad;
+
+
+}

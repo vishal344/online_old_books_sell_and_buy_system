@@ -1,0 +1,29 @@
+#sixth-section .img{
+    width: 5.5rem;
+}
+
+
+#sixth-section h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+#sixth-section p{
+    font-size: 1.5rem;
+    
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+#sixth-section .row{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

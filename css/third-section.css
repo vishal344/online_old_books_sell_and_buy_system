@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#third_section .fas{
+    font-size: 1.8rem;
+    color: #1f2029;
+    transition: all 1s;
+}
+
+#third_section .circle1:hover{
+    color: #fb5a36;
+
+}
+
+#third_section .circle2:hover{
+    color: #12f8ad;
+
+}
+
+#third_section .circle3:hover{
+    color: #fb6327;
+
+}
+
+#third_section .img:hover{
+    animation: bounce;
+    animation-duration: 1.5s;
+}
+
+#third_section img{
+    width: 5rem;
+}
